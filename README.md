@@ -2,7 +2,6 @@
 This repository contains code and diagram for Line Follower Robot using Arduino
 ---
 > Improvement 🪛
----
 # AnalogLineMaster 🚗✨  
 **Advanced Analog IR Line Following Robot using Arduino**
 
