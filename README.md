@@ -80,3 +80,32 @@ AnalogLineMaster is a precision line-following robot built on Arduino using **an
 4. **Watch it go!**
 
 ---
+
+## ⚠️ TCRT5000 Sensor Weaknesses & User Suggestions
+
+While the TCRT5000 is a popular and affordable choice for line-following robots, it has some limitations you should be aware of. This section provides transparency and practical advice for users seeking optimal performance.
+
+### 🚫 Weaknesses of the TCRT5000 Sensor
+
+| Weakness                          | Description |
+|----------------------------------|-------------|
+| **Ambient Light Sensitivity**    | Strong sunlight or uneven lighting can skew readings significantly. |
+| **Short Range Detection**        | Performs best within 2–10mm of surface. Readings become unreliable beyond that. |
+| **Angle Sensitivity**            | Small changes in mounting angle can drastically affect reflectivity values. |
+| **Nonlinear Output**             | Output doesn't change linearly with distance or surface brightness. |
+| **Noisy Analog Signal**          | Reflections may fluctuate due to jitter or surface inconsistencies. |
+
+---
+
+### ✅ Suggestions to Improve Your Sensor Accuracy
+
+| Improvement                         | Description |
+|-------------------------------------|-------------|
+| **Use Analog Filtering**            | Apply a simple moving average or exponential filter to smooth noisy readings. |
+| **Shield from Ambient Light**       | Use black tubes or hoods to block stray IR from the environment. |
+| **Adjustable Mounts**               | Use servo brackets or 3D-printed holders to fine-tune sensor angle. |
+| **Surface Calibration**             | Always calibrate on the exact surface where the robot will operate. |
+| **Add More Sensors**                | Add center or rear sensors to detect intersections and improve tracking. |
+| **Switch to Better IR Sensors**     | For high-end use, consider sensors like QRE1113GR or Pixy2 camera for color-based line following. |
+
+---
