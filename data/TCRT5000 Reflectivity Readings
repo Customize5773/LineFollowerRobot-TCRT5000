@@ -1,0 +1,12 @@
+| Surface Type        | Distance (mm) | Analog Reading |
+|---------------------|---------------|----------------|
+| White Paper         | 3             | 880            |
+| White Paper         | 5             | 750            |
+| White Paper         | 10            | 520            |
+| Black Tape          | 3             | 190            |
+| Black Tape          | 5             | 140            |
+| Black Tape          | 10            | 90             |
+| Reflective Foil     | 3             | 980            |
+| Reflective Foil     | 5             | 920            |
+| Wood Surface        | 5             | 580            |
+| Dark Gray Plastic   | 3             | 300            |
