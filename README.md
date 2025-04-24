@@ -6,6 +6,10 @@ This repository contains code and diagram for Line Follower Robot using Arduino
 # AnalogLineMaster 🚗✨  
 **Advanced Analog IR Line Following Robot using Arduino**
 
+![F3RNI9HJBQU4BU8](https://github.com/user-attachments/assets/5f37ef24-c1bd-460a-b61c-357f0c839afa)
+> _Copyright © : [mybotic](https://www.instructables.com/How-to-Use-TCRT5000-IR-Sensor-Module-With-Arduino-/)_
+
+
 AnalogLineMaster is a precision line-following robot built on Arduino using **analog IR sensors**. Unlike digital line followers, this version uses analog readings to make **fine-grained decisions** for smoother, more accurate motion. The robot also includes a **dynamic calibration feature**, ensuring consistent performance across various surfaces.
 
 ---
